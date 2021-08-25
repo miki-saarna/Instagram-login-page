@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: rgba(243, 243, 243, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    color: rgb(38, 38, 38);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}
+.container-1 {
+    height: 385px;
+    width: 345px;
+    margin-top: 84px;
+    text-align: center;
+}
+.content-container {
+    margin: 30px 25px; 
+}
+.logo-insta {
+    width: 60%;
+    margin-bottom: 27px;
+}
+input[type='text'], input[type='password'] {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    background-color: rgba(243, 243, 243, 0.5);
+    width: 85%;
+    padding: 11px 8px; 
+    /* how to ONLY use 'padding-left' for placeholder text */
+    margin: 3px 0px;
+    height: 16px;
+}
+input[type='submit'] {
+    width: 91%;
+    margin-top: 11px;
+    padding: 8px;
+    color: white;
+    background-color:rgba(0, 149, 246, 0.3);
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.mid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 15px;
+}
+hr {
+    height: 1px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 10px;
+    width: 114px
+}
+.mid-container > div > p {
+    margin: 0px 10px;
+    color: rgb(139, 139, 139);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.end-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 14px;
+}
+.end-container img {
+    margin-right: 7px;
+}
+.end-container h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #385185;
+    font-size: 15px;
+}
+.content-container p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+}
+.container-2 {
+    width: 345px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.container-content-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 23px;
+    
+}
+.container-content-2 > div > a {
+    color: rgb(0, 149, 246);
+    margin-left: 4px;
+    font-weight: 600;
+}
+.container-3 {
+    display: flex;
+    
+}
+.get-app {
+    margin-top: 17px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.app-store-logo img {
+    width: 134px;
+    height: 40px;
+    margin-right: 8px;
+}
+.play-store-logo img {
+    
+    width: 134px;
+    height: 40px;
+}
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 140px;
+}
+.links {
+    margin: 3px 9px;
+    font-size: 12px;   
+}
+.links > a {
+    color: rgb(142, 142, 142);
+}
+.container-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 17px;
+}
+.language-selector > select {
+    background-color: rgba(243, 243, 243, 0.5);
+    border: none;
+    color: rgb(142, 142, 142);
+}
+.copyright-info {
+    color: rgb(142, 142, 142);
+    font-size: 13px;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+@media only screen and (min-width: 451px) {
+    .container-1 {
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 1px;
+        height: 385px;
+        width: 345px;
+        margin-top: 117px;
+    }
+    .container-2 {
+        border: 1px solid lightgray;
+        width: 345px;
+        background-color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 10px;
+        border-radius: 1px;
+    }
+    }
